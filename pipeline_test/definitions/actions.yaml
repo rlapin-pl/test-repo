@@ -1,1 +1,9 @@
-actions: []
+actions:
+- operation:
+    name: Query task (1773067504195)
+    dataset: dataform_hkvikramsingh
+    project: cloud-dataform-testing
+    filename: query_1773067504195.sql
+- operation:
+    name: Query task (1773067509007)
+    filename: query_1773067509007.sql
