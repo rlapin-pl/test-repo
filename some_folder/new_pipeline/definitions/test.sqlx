@@ -1,0 +1,14 @@
+config {
+  type: "table",
+  schema: "dataform",
+  name: "test",
+  description: "A new table with two columns.",
+  columns: {
+    a: "Description for column a",
+    b: "Description for column b"
+  }
+}
+
+SELECT
+  NULL AS a,
+  NULL AS b
